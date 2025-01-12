@@ -1,4 +1,5 @@
-body {
+/* General Styles */
+        body {
             font-family: "Times New Roman", serif;
             margin: 0;
             padding: 0;
@@ -24,10 +25,47 @@ body {
 
         /* Header Styles */
         .luxury-header {
+            background-color: #0A1128;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .luxury-header .logo h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        .luxury-header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .luxury-header nav ul li {
+            display: inline;
+        }
+
+        .luxury-header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .luxury-header nav ul li a:hover {
+            color: #D4AF37;
+        }
+
+        /* Hero Section */
+        .hero-section {
             background-image: url('img/IMG_2519.jpeg');
             background-size: cover;
             background-position: center;
-            height: 100vh;
+            height: 70vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -36,7 +74,7 @@ body {
             position: relative;
         }
 
-        .luxury-header .overlay {
+        .hero-section .hero-overlay {
             background: rgba(0, 0, 0, 0.5);
             position: absolute;
             top: 0;
@@ -46,42 +84,19 @@ body {
             z-index: 1;
         }
 
-        .luxury-header .container {
+        .hero-section .hero-content {
             position: relative;
             z-index: 2;
         }
 
-        .luxury-header h1 {
-            font-size: 4rem;
+        .hero-section h1 {
+            font-size: 3rem;
             margin: 0;
         }
 
-        .luxury-header p {
-            font-size: 1.5rem;
+        .hero-section p {
+            font-size: 1.2rem;
             margin-top: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            color: #D4AF37;
-            text-decoration: underline;
         }
 
         /* Section Styles */
@@ -181,7 +196,6 @@ body {
 
         #contact ul li a:hover {
             color: #D4AF37;
-            text-decoration: underline;
         }
 
         /* Footer Styles */
