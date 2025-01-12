@@ -1,9 +1,9 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #F7F7F7;
     color: #333;
     line-height: 1.6;
 }
@@ -16,61 +16,69 @@ body {
 }
 
 .section {
-    padding: 40px 0;
+    padding: 60px 0;
+}
+
+h1, h2, h3 {
+    color: #0A1128;
 }
 
 /* Header Styles */
-.header {
-    background-color: #4CAF50;
-    color: #fff;
+.luxury-header {
+    background-color: #0A1128;
+    color: #F7F7F7;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.header h1 {
+.luxury-header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
-.header nav ul {
+.luxury-header nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin-top: 10px;
 }
 
-.header nav ul li {
+.luxury-header nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-.header nav ul li a {
-    color: #fff;
+.luxury-header nav ul li a {
+    color: #F7F7F7;
     text-decoration: none;
     font-weight: bold;
 }
 
-.header nav ul li a:hover {
+.luxury-header nav ul li a:hover {
+    color: #D4AF37;
     text-decoration: underline;
 }
 
-/* About Section */
-#about {
-    background-color: #e8f5e9;
+/* Section Styles */
+.luxury-section {
+    background-color: #F7F7F7;
     text-align: center;
+    border-bottom: 1px solid #B8B8B8;
 }
 
-#about p {
-    font-size: 1.2rem;
-    margin: 20px 0;
+.luxury-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #800020;
 }
 
 /* Projects Section */
-#projects .project-list {
+.project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     gap: 20px;
+    justify-content: center;
 }
 
 .project {
@@ -83,21 +91,51 @@ body {
     text-align: center;
 }
 
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 .project h3 {
-    margin-top: 0;
-    color: #4CAF50;
-}
-
-.project a {
-    display: inline-block;
     margin-top: 10px;
-    color: #4CAF50;
-    text-decoration: none;
-    font-weight: bold;
+    color: #0A1128;
 }
 
-.project a:hover {
-    text-decoration: underline;
+/* Brands Section */
+.brand-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brand {
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.brand:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
 }
 
 /* Contact Section */
@@ -112,25 +150,25 @@ body {
 }
 
 #contact ul li a {
-    color: #4CAF50;
+    color: #0A1128;
     text-decoration: none;
     font-weight: bold;
 }
 
 #contact ul li a:hover {
+    color: #D4AF37;
     text-decoration: underline;
 }
 
 /* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
+.luxury-footer {
+    background-color: #0A1128;
+    color: #F7F7F7;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
+    padding: 20px 0;
 }
 
-footer p {
+.luxury-footer p {
     margin: 0;
     font-size: 0.9rem;
 }
