@@ -62,6 +62,6 @@ Tougaloo College - A.A Computer Science
 ---
 
 📫 Connect With Me  
-- LinkedIn:** https://www.linkedin.com/in/kahilyn-boyd/  
+- LinkedIn: https://www.linkedin.com/in/kahilyn-boyd/  
 - Email: kahilyn@outlook.com  
 
