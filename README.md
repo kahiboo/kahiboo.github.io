@@ -1,7 +1,6 @@
 👋🏾 Hi, I'm Kahilyn Boyd  
-Cybersecurity Software Developer | Full-Stack Engineer 
-
-I'm a Computer Science major at the University of Mississippi graduating in Dec 2025.  
+Cybersecurity Software Developer @ C Spire | Full-Stack Engineer 
+  
 I build secure, production-level systems — from cloud-hosted web apps to internal cybersecurity automation tools.
 
 ---
