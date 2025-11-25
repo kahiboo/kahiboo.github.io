@@ -28,11 +28,23 @@ Django | PostgreSQL | Gunicorn/Nginx | Chart.js | Cloudflare
 🌐 Live Site: https://thefinancecoach.xyz  
 
 ---
+🔐 SecureLog – Real-Time File Integrity & Tamper Detection (Golang)
+Golang | fsnotify | SHA-256 | Linux | JSON Logging
+
+- Watches directories in real time and detects file changes
+
+- Generates SHA-256 hashes for integrity verification
+
+- Outputs structured JSON logs for SIEM/security pipelines
+
+🔗 Repo: https://github.com/kahiboo/securelog 
+
+---
 
 🧠 Tech Stack
 
 Languages:  
-Python, Java, C++, JavaScript, SQL, Bash  
+Python, Java, C++, Go, HTML, JavaScript, SQL, Bash 
 
 Frameworks & Tools:  
 Django, Quarkus, Flask, Node.js, React, Chart.js  
