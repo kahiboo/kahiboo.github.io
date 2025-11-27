@@ -18,7 +18,7 @@ Python | Shodan API | PostgreSQL | CGI | Linux
 
 ---
 
-💰 Finance AI Coach** – Personal Finance Web App (In Progress) 
+💰 Finance AI Coach – Personal Finance Web App (In Progress) 
 Django | PostgreSQL | Gunicorn/Nginx | Chart.js | Cloudflare  
 - Upload CSVs, track spending, calculate Safe-To-Spend  
 - Live dashboard + spending visualizations  
