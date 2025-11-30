@@ -1,5 +1,5 @@
 👋🏾 Hi, I'm Kahilyn Boyd  
-Cybersecurity Software Developer @ C Spire | Full-Stack Engineer 
+Cybersecurity Software Developer @ C Spire | Backend/Full-Stack Engineer | Security+ CE
   
 I build secure, production-level systems — from cloud-hosted web apps to internal cybersecurity automation tools.
 
