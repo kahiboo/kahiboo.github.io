@@ -1,36 +1,38 @@
 👋🏾 Hi, I'm Kahilyn Boyd  
-Cybersecurity Software Developer @ C Spire | Backend/Full-Stack Engineer | Security+ CE
+Cybersecurity Software Engineer @ C Spire | Backend/Full-Stack Engineer | Security+ CE
   
-I build secure, production-level systems — from cloud-hosted web apps to internal cybersecurity automation tools.
+Cyber Security Software Engineer and Backend Engineer with two years of industry experience building automated
+security tools, backend systems, and data-driven services. Security+ certified.
 
 ---
 
 🚀 My Top Projects
 
-🔐 ThreatScanner – Cybersecurity Vulnerability Intelligence Tool  
-Python | Shodan API | PostgreSQL | CGI | Linux
-- Automates threat discovery across IP ranges  
-- Stores findings in PostgreSQL + generates internal dashboards  
-- Actively used by security teams to reduce manual triage time  
-
-🔗 Repo: private   
-📄 Tech: Python, Shodan, PostgreSQL, CGI, Linux, Automation
-
----
-
 ✈️ Flight Simulator – Real-Time Aircraft Telemetry System (C++)
 C++17 | Linux | Multithreading | UDP Sockets | CMake
+
 - Simulates real-time aircraft telemetry (altitude, speed, attitude, G-force, engine temp)
 - Sends live telemetry packets via UDP to a mission-system module
 - Multithreaded design for 10–50 Hz data generation and processing
 - Includes anomaly detection (stall risk, over-G, high engine temp, etc.)
-B- uilt with CMake + runs on Linux to model real mission-computer environments
-🔗 Repo: https://github.com/kahiboo/flightsimulaor 
+-  Built with CMake + runs on Linux to model real mission-computer environments
+🔗 Repo: https://github.com/kahiboo/FlightSimulator
 
 ---
 
-💰 Finance AI Coach – Personal Finance Web App (In Progress) 
+🔐 SecureLog – Real-Time File Integrity & Tamper Detection (Golang)
+Golang | fsnotify | SHA-256 | Linux | JSON Logging
+
+- Watches directories in real time and detects file changes
+- Generates SHA-256 hashes for integrity verification
+- Outputs structured JSON logs for SIEM/security pipelines
+
+🔗 Repo: https://github.com/kahiboo/securelog 
+
+---
+💰 Finance AI Coach – Personal Finance Web App (Python/Django) 
 Django | PostgreSQL | Gunicorn/Nginx | Chart.js | Cloudflare  
+
 - Upload CSVs, track spending, calculate Safe-To-Spend  
 - Live dashboard + spending visualizations  
 - Deployed on cloud server with custom domain  
@@ -39,18 +41,16 @@ Django | PostgreSQL | Gunicorn/Nginx | Chart.js | Cloudflare
 🌐 Live Site: https://thefinancecoach.xyz  
 
 ---
-🔐 SecureLog – Real-Time File Integrity & Tamper Detection (Golang)
-Golang | fsnotify | SHA-256 | Linux | JSON Logging
 
-- Watches directories in real time and detects file changes
+🔐 ThreatScanner – Cybersecurity Vulnerability Intelligence Tool (Python)  
+Python | Shodan API | PostgreSQL | CGI | Linux
+- Automates threat discovery across IP ranges  
+- Stores findings in PostgreSQL + generates internal dashboards  
+- Actively used by security teams to reduce manual triage time  
 
-- Generates SHA-256 hashes for integrity verification
+🔗 Repo: private   
+📄 Tech: Python, Shodan, PostgreSQL, CGI, Linux, Automation
 
-- Outputs structured JSON logs for SIEM/security pipelines
-
-🔗 Repo: https://github.com/kahiboo/securelog 
-
----
 
 🧠 Tech Stack
 
