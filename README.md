@@ -18,6 +18,17 @@ Python | Shodan API | PostgreSQL | CGI | Linux
 
 ---
 
+✈️ Flight Simulator – Real-Time Aircraft Telemetry System (C++)
+C++17 | Linux | Multithreading | UDP Sockets | CMake
+- Simulates real-time aircraft telemetry (altitude, speed, attitude, G-force, engine temp)
+- Sends live telemetry packets via UDP to a mission-system module
+- Multithreaded design for 10–50 Hz data generation and processing
+- Includes anomaly detection (stall risk, over-G, high engine temp, etc.)
+B- uilt with CMake + runs on Linux to model real mission-computer environments
+🔗 Repo: https://github.com/kahiboo/flightsimulaor 
+
+---
+
 💰 Finance AI Coach – Personal Finance Web App (In Progress) 
 Django | PostgreSQL | Gunicorn/Nginx | Chart.js | Cloudflare  
 - Upload CSVs, track spending, calculate Safe-To-Spend  
